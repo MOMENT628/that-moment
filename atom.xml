@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/MOMENT628/The-first</id>
     <title>That-moment</title>
-    <updated>2020-03-12T13:56:07.614Z</updated>
+    <updated>2020-03-12T14:02:34.472Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/MOMENT628/The-first"/>
     <link rel="self" href="https://github.com/MOMENT628/The-first/atom.xml"/>
@@ -11,7 +11,7 @@
     <icon>https://github.com/MOMENT628/The-first/favicon.ico</icon>
     <rights>All rights reserved 2020, That-moment</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
+        <title type="html"><![CDATA[Hello Everyone！]]></title>
         <id>https://github.com/MOMENT628/The-first/post/hello-gridea/</id>
         <link href="https://github.com/MOMENT628/The-first/post/hello-gridea/">
         </link>
