@@ -5,14 +5,14 @@
     
 <meta charset="utf-8" >
 
-<title>从零开始学习C++ Day one！ | That-moment</title>
+<title>从零开始学习C++ Day ONE！ | That-moment</title>
 <meta name="description" content="戴上耳机，将音量调到最大，享受你身后那片黑夜带来的震撼">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://github.com/MOMENT628/Gridea/favicon.ico?v=1584068763714">
+<link rel="shortcut icon" href="https://github.com/MOMENT628/Gridea/favicon.ico?v=1584073559352">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://github.com/MOMENT628/Gridea/styles/main.css">
 
@@ -30,7 +30,7 @@
   <div class="site-header">
     <div class="left">
       <a href="https://github.com/MOMENT628/Gridea">
-        <img class="avatar" src="https://github.com/MOMENT628/Gridea/images/avatar.png?v=1584068763714" alt="" width="32px" height="32px">
+        <img class="avatar" src="https://github.com/MOMENT628/Gridea/images/avatar.png?v=1584073559352" alt="" width="32px" height="32px">
       </a>
       <a href="https://github.com/MOMENT628/Gridea">
         <h1 class="site-title">That-moment</h1>
@@ -80,7 +80,7 @@
       <div class="content-container">
         <div class="post-detail">
           
-          <h2 class="post-title">从零开始学习C++ Day one！</h2>
+          <h2 class="post-title">从零开始学习C++ Day ONE！</h2>
           <div class="post-info post-detail-info">
             <span><i class="icon-calendar-outline"></i> 2020-03-13</span>
             
@@ -99,7 +99,8 @@
             <h2 id="1-c简介">1. C++简介</h2>
 <p>C++是C语言的继承，它既可以进行C语言的过程化程序设计，又可以进行以抽象数据类型为特点的基于对象的程序设计，还可以进行以继承和多态为特点的面向对象的程序设计。C++擅长面向对象程序设计的同时，还可以进行基于过程的程序设计，因而C++就适应的问题规模而论，大小由之。 [1]<br>
 C++不仅拥有计算机高效运行的实用性特征，同时还致力于提高大规模程序的编程质量与程序设计语言的问题描述能力。</p>
-<h2 id="2c基础程序框架">2.C++基础程序框架</h2>
+<h2 id="2在windows下搭建编译环境">2.在Windows下搭建编译环境</h2>
+<h2 id="3c基础程序框架">3.C++基础程序框架</h2>
 <pre><code>#include &lt;iostream&gt;
 using namespace std;
 int main (){
@@ -107,8 +108,15 @@ int main (){
     return 0;
 }
 </code></pre>
-<p>以上是一个用c++编写的最简单程序，接下来我会给大家一行行解释。<br>
-第一行 == #include <iostream> ==</p>
+<p>以上是一个用c++编写的最简单程序，接下来我会给大家大概解释一下。<br>
+第一行 #include <iostream><br>
+是程序的输入输出流头文件 在C++中定义了很多头文件，这些头文件就像工具箱一样，在这些工具箱里面有这许多的工具。头文件是C++程序对其他程序的引用。就是像第四行的cout就是在iostream头文件里面的工具。在使用这个工具箱之前我们需要告诉程序你都需要用到那个头文件，这里就要用到#include了，#include你的头文件名称之后就可以使用头文件了。<br>
+格式为：#incluude&quot;头文件名&quot;或#incldue&lt;头文件名&gt;<br>
+第二行 using namespace std;<br>
+是程序的名字空间，所谓名字空间是用来指明程序采用的名字空间。在这里所指的是这个程序采用的全部都是std名字空间，而std是stand（标准）的缩写。<br>
+/第三行 int main()<br>
+在C++中所有的功能都是用函数来表示的，而这里main就是一个函数，名为主函数<br>
+在一般的程序里主函数都是存在的，一般的程序都是寻找主函数来开始运行的</p>
 
           </div>
         </div>
